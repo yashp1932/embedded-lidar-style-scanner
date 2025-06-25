@@ -11,6 +11,7 @@ A low-cost **3D mapping system** that rotates a VL53L1X **Time-of-Flight** senso
 📊 [Scanner Output #2](scanner_output_2.png)      
 🖥️ [Device Setup](device_setup.png)      
 
+> **Note:** Since this an academic project, only core implementation files and images are included, due to university academic policies. 
 ---
 
 ## 📚 Background
@@ -24,7 +25,7 @@ Commercial LiDAR scanners are **expensive and bulky**, limiting their use in edu
    - MSP432E401Y steps a 28BYJ-48 motor via ULN2003 at 11.25° increments.  
    - VL53L1X measures distance (up to 4 m) via I2C at each angular position.  
 2. **UART Streaming**  
-   - Firmware packages millimeter readings into a byte stream at 115,200 bps.  
+   - The firmware packages millimeter readings into a byte stream at 115,200 bps.  
    - A pushbutton toggles scanning on demand, and LEDs indicate status.  
 3. **PC Visualization**  
    - `scanner_visualizer.py` uses `pyserial` to read UART data, converts polar coordinates (angle + distance) to Cartesian points, and renders live 3D slices in Open3D.
@@ -35,8 +36,6 @@ Commercial LiDAR scanners are **expensive and bulky**, limiting their use in edu
 
 - **`2dx_project_final.c`** — MSP432 firmware: I2C setup, stepper control, distance sampling, UART transmission.  
 - **`scanner_visualizer.py`** — Host-side Python: serial communication, data parsing, point cloud rendering.  
-
-> **Note:** Only core implementation files are included here for review. Full source repositories, hardware schematics, and build scripts will accompany sample outputs and diagrams.
 
 ---
 
