@@ -14,7 +14,7 @@ A low-cost **3D mapping system** that rotates a VL53L1X **Time-of-Flight** senso
 ---
 
 ## 📚 Background
-Commercial LiDAR scanners are **expensive and bulky**, limiting their use in educational and budget-conscious prototyping environments. Inspired by a need for **accessible spatial mapping** and exploring embedded systems, this project demonstrates how an MSP432E401Y paired with a VL53L1X sensor and a simple stepper can capture 360° distance data for under CA$110.
+Commercial LiDAR scanners are **expensive and bulky**, limiting their use in educational and budget-conscious prototyping environments. Inspired by a need for **accessible spatial mapping** and **exploring embedded systems**, this project demonstrates how an MSP432E401Y paired with a VL53L1X sensor and a simple stepper can capture 360° distance data for under CA$110.
 
 ---
 
