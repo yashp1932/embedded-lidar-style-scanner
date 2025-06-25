@@ -29,6 +29,7 @@ Commercial LiDAR scanners are **expensive and bulky**, limiting their use in edu
    - A pushbutton toggles scanning on demand, and LEDs indicate status.  
 3. **PC Visualization**  
    - `scanner_visualizer.py` uses `pyserial` to read UART data, converts polar coordinates (angle + distance) to Cartesian points, and renders live 3D slices in Open3D.
+   - Automatically simulates forward movement between each 2D scan slice by incrementally translating the point cloud along the scanning axis, generating a continuous 3D representation despite the sensor’s 2D limitations.
 
 ---
 
