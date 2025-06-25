@@ -1,6 +1,6 @@
 # 🚀 Embedded Spatial Scanner (LiDAR) 🛰️
 
-A low-cost 3D mapping system that rotates a VL53L1X Time-of-Flight sensor on an MSP432 microcontroller and streams distance readings over UART to render real-time point clouds with Python.  
+A low-cost 3D mapping system that rotates a VL53L1X Time-of-Flight sensor on an MSP432 microcontroller and streams distance readings over UART to render real-time 3D point clouds with Python.  
 
 🔍 Explore  
 📄 Project Overview (PDF) [COMING SOON]  
