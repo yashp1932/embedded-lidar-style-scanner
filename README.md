@@ -11,7 +11,7 @@ A low-cost **3D mapping system** that rotates a VL53L1X **Time-of-Flight** senso
 📊 [Scanner Output #2](scanner_output_2.png)      
 🖥️ [Device Setup](device_setup.png)      
 
-> **Note:** Since this an academic project, only core implementation files and images are included, due to university academic policies. 
+> **Note:** Since this is an academic project, only the core implementation files and example images are included, in accordance with university policies.
 ---
 
 ## 📚 Background
