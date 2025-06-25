@@ -6,7 +6,6 @@ A low-cost **3D mapping system** that rotates a VL53L1X **Time-of-Flight** senso
 📄 Project Overview [COMING SOON]      
 📁 Code Files: `2dx_project_final.c`, `scanner_visualizer.py`        
 🔀 [Data Flow Diagram](data_flow_diagram.png)   🗂️ [Flowchart](flowchart_diagram.png)   🔌[Circuit Schematic](circuit_schematic.png)  
-🖥️ [Device Setup](device_setup.png)     
 🏠 [Hallway Scanned](hallway_scanned.png)      
 📊 [Scanner Output #1](scanner_output_1.png)      
 📊 [Scanner Output #2](scanner_output_2.png)      
