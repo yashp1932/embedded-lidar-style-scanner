@@ -3,7 +3,7 @@
 A low-cost **3D mapping system** that rotates a VL53L1X **Time-of-Flight** sensor on an **MSP432 microcontroller** and streams distance readings over UART to render **real-time 3D point clouds** with Python.  
 
 ## 🔍 Explore  
-📄 Project Overview [COMING SOON]      
+📄 [Project Overview](project_overview.pdf)    
 📁 Code Files: `2dx_project_final.c`, `scanner_visualizer.py`        
 🔀 [Data Flow Diagram](data_flow_diagram.png)   🗂️ [Flowchart](flowchart_diagram.png)   🔌[Circuit Schematic](circuit_schematic.png)  
 🏠 [Hallway Scanned](hallway_scanned.png)      
