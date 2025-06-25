@@ -64,6 +64,7 @@ Have feedback or want to collaborate? Reach out!
 📧 Email: yash.panchal1932@gmail.com  
 🌐 [GitHub] (https://github.com/yashp1932)
 💼 [LinkedIn](https://www.linkedin.com/in/yash-panchal-aba8b12a6/)
+
 ---
 
 
