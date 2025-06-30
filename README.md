@@ -22,8 +22,8 @@ Commercial LiDAR scanners are **expensive and bulky**, limiting their use in edu
 ## 🔧 How It Works
 
 1. **Stepper & Sensor Control**  
-   - MSP432E401Y steps a 28BYJ-48 motor via ULN2003 at 11.25° increments.  
-   - VL53L1X measures distance (up to 4 m) via I2C at each angular position.  
+   - MSP432E401Y steps a 28BYJ-48 motor via ULN2003 (stepper motor) at 11.25° increments.  
+   - VL53L1X ToF sensor measures distance (up to 4 m) via I2C at each angular position.  
 2. **UART Streaming**  
    - The firmware packages millimeter readings into a byte stream at 115,200 bps.  
    - A pushbutton toggles scanning on demand, and LEDs indicate status.  
