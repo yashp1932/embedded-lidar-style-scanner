@@ -12,6 +12,16 @@ A low-cost **3D mapping system** that rotates a VL53L1X **Time-of-Flight** senso
 🖥️ [Device Setup](device_setup.png)      
 
 > **Note:** Since this is an academic project, only the core implementation files and example images are included, in accordance with university policies.
+
+---
+
+## 📈 Key Results
+- Built a **synchronized state‑machine control** loop in C, polling I2C and stepping the motor at 11.25° increments to achieve consistent 1 mm radial resolution scans in real time.
+- Achieved ~2 full 360° point-cloud scans per second over a 115,200 bps **UART pipeline**, rendered live in Python with Open3D and NumPy.
+- **Improved scan accuracy by nearly 20%** via sensor signal tuning, stepper motor calibration, and **latency reduction** optimizations.
+- Demonstrated reliable map outlines of indoor environments, including room and hallway scans, with clear object silhouettes.
+- Kept total hardware cost under CA$110, offering **significant cost reduction** compared to entry‑level commercial LiDAR systems.
+  
 ---
 
 ## 📚 Background
@@ -49,14 +59,6 @@ Commercial LiDAR scanners are **expensive and bulky**, limiting their use in edu
 - **Languages:** C (firmware), Python 3.10+ (visualizer)  
 - **Libraries:** `pyserial`, `numpy`, `open3d`
 
----
-
-## 📈 Key Results
-- Built a **synchronized state‑machine control** loop in C, polling I2C and stepping the motor at 11.25° increments to achieve consistent 1 mm radial resolution scans in real time.
-- Achieved ~2 full 360° point-cloud scans per second over a 115,200 bps **UART pipeline**, rendered live in Python with Open3D and NumPy.
-- **Improved scan accuracy by nearly 20%** via sensor signal tuning, stepper motor calibration, and **latency reduction** optimizations.
-- Demonstrated reliable map outlines of indoor environments, including room and hallway scans, with clear object silhouettes.
-- Kept total hardware cost under CA$110, offering **significant cost reduction** compared to entry‑level commercial LiDAR systems.
 ---
 
 ## 🤝 Connect
